@@ -10,7 +10,7 @@
 - Query sentence
 - Oracle SQL
 
-## 학습 환경
+## 학습 환경 및 도구
 - jdk-8u151-windows-x64
 - eclipse-jee-oxygen-2-win32-x86_64
 - OracleXE112_Win64 (Oracle Express-Edition 11g)
