@@ -1,0 +1,20 @@
+3. 관리자/사용자 암호 분실 시
+
+1) Run SQL Command Line 실행 
+
+2) 로그인 :  conn /as sysdba 
+또는 
+2) 로그인 :  conn system/1234 
+(관리자 모드로 로그인)
+
+-> sys 계정 암호 변경    
+3) alter user sys identified by 암호
+
+-> system 계정 암호 변경
+4) alter user system identified by 암호
+
+-> 일반사용자(scott) 계정 암호(tiger) 변경
+5) alter user scott identified by tiger
+
+
+

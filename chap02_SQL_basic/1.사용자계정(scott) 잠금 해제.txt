@@ -1,0 +1,15 @@
+1. scott(사용자) 계정 잠금 해제
+
+1) Run SQL Command Line 실행 
+
+2) 로그인 :  conn /as sysdba 
+또는 
+2) 로그인 :  conn system/1234 
+
+
+-> scott 계정 잠금 해제
+3) sql> alter user scott account unlock;
+  
+4) sql> conn scott/tiger;
+
+5) sql> show user;
